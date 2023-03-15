@@ -2,4 +2,4 @@
 
 Notes to myself
 
-moras da instaliras ssl, lekcija 28
+moras da instaliras ssl, lekcija 28 
