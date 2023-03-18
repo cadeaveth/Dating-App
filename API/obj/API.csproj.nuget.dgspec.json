@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\StefPrvt\\Brm\\Sapphire\\api\\API.csproj": {}
+    "C:\\Users\\Stefan\\Desktop\\Sapphire\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\StefPrvt\\Brm\\Sapphire\\api\\API.csproj": {
+    "C:\\Users\\Stefan\\Desktop\\Sapphire\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\StefPrvt\\Brm\\Sapphire\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan\\Desktop\\Sapphire\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\StefPrvt\\Brm\\Sapphire\\api\\API.csproj",
-        "packagesPath": "C:\\Users\\stefan.petkovic\\.nuget\\packages\\",
-        "outputPath": "C:\\StefPrvt\\Brm\\Sapphire\\api\\obj\\",
+        "projectPath": "C:\\Users\\Stefan\\Desktop\\Sapphire\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefan\\Desktop\\Sapphire\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\stefan.petkovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Stefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
