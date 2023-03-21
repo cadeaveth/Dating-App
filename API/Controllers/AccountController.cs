@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using API.Entities;
 using System.Security.Cryptography;
 using System.Text;
+using API.DTOs;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
@@ -19,7 +21,7 @@ namespace API.Controllers
     public async Task<ActionResult<AppUser>> Register(RegisterDto registerDto)
     {
 
-        if(await UserExists(registerDto.UserName)) return BadRequest("Username is taken");
+        if(await UserExists(registerDto.Username)) return BadRequest("Username is taken");
 
         using var hmac = new HMACSHA512();
 
@@ -35,9 +37,9 @@ namespace API.Controllers
         return user;
     }
 
-    private async Task<bool> UserExists(string UserName)
+    private async Task<bool> UserExists(string username)
     {
-      return await _context.Users.AnySync(x => x.UserName == UserName.ToLower())
+      return await _context.Users.AnyAsync(x => x.UserName == username.ToLower());
     }
   }
 }
