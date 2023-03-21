@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w+tmXLBoJt+5uxE40glt9cHXxVPyjJ9CS0KS2zLYmDNc8Ia8FldmxunIntCkuV//19Eyiut7H0mSr2d5p6qFoA==",
+  "dgSpecHash": "9HYS0HkwTRns/IcmhKNBQppnI63CX0/+I59ZCXykdwJ38JMQUNUropt3bQDYDw/T6h0AphLbo3BGBqTMQHaeaQ==",
   "success": true,
-  "projectFilePath": "C:\\Aplikacije\\Sapphire\\api\\API.csproj",
+  "projectFilePath": "C:\\Aplikacije\\Sapphire\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Creen\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Creen\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
@@ -59,8 +59,8 @@
     "C:\\Users\\Creen\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\Creen\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512",
     "C:\\Users\\Creen\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
-    "C:\\Users\\Creen\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Creen\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\Creen\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Creen\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

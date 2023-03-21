@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Aplikacije\\Sapphire\\api\\API.csproj": {}
+    "C:\\Aplikacije\\Sapphire\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Aplikacije\\Sapphire\\api\\API.csproj": {
+    "C:\\Aplikacije\\Sapphire\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Aplikacije\\Sapphire\\api\\API.csproj",
+        "projectUniqueName": "C:\\Aplikacije\\Sapphire\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Aplikacije\\Sapphire\\api\\API.csproj",
+        "projectPath": "C:\\Aplikacije\\Sapphire\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Creen\\.nuget\\packages\\",
-        "outputPath": "C:\\Aplikacije\\Sapphire\\api\\obj\\",
+        "outputPath": "C:\\Aplikacije\\Sapphire\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Creen\\AppData\\Roaming\\NuGet\\NuGet.Config",
