@@ -200,7 +200,6 @@ C:\Aplikacije\Sapphire\api\obj\Debug\net5.0\API.dll
 C:\Aplikacije\Sapphire\api\obj\Debug\net5.0\API.pdb
 C:\Aplikacije\Sapphire\api\obj\Debug\net5.0\API.genruntimeconfig.cache
 C:\Aplikacije\Sapphire\api\obj\Debug\net5.0\ref\API.dll
-C:\Aplikacije\Sapphire\api\bin\Debug\net5.0\API.StaticWebAssets.xml
 C:\Aplikacije\Sapphire\api\obj\Debug\net5.0\staticwebassets\API.StaticWebAssets.Pack.cache
 C:\Aplikacije\Sapphire\api\obj\Debug\net5.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Aplikacije\Sapphire\api\obj\Debug\net5.0\staticwebassets\msbuild.build.API.props
