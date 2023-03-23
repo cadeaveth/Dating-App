@@ -206,3 +206,11 @@ C:\Aplikacije\Sapphire\api\obj\Debug\net5.0\staticwebassets\msbuild.build.API.pr
 C:\Aplikacije\Sapphire\api\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.API.props
 C:\Aplikacije\Sapphire\api\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.API.props
 C:\Aplikacije\Sapphire\api\obj\Debug\net5.0\refint\API.dll
+C:\Aplikacije\Sapphire\api\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Aplikacije\Sapphire\api\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Aplikacije\Sapphire\api\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Aplikacije\Sapphire\api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Aplikacije\Sapphire\api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Aplikacije\Sapphire\api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Aplikacije\Sapphire\api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Aplikacije\Sapphire\api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
