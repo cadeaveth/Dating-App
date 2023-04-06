@@ -1,6 +1,7 @@
 {
     "cSpell.words": [
         "hmac",
-        "HMACSHA512"
+        "HMACSHA512",
+        "toastr"
     ]
 }
