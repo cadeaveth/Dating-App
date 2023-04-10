@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Aplikacije\\Sapphire\\API\\API.csproj": {}
+    "C:\\Aplikacije\\Sapphire\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Aplikacije\\Sapphire\\API\\API.csproj": {
+    "C:\\Aplikacije\\Sapphire\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Aplikacije\\Sapphire\\API\\API.csproj",
+        "projectUniqueName": "C:\\Aplikacije\\Sapphire\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Aplikacije\\Sapphire\\API\\API.csproj",
+        "projectPath": "C:\\Aplikacije\\Sapphire\\api\\API.csproj",
         "packagesPath": "C:\\Users\\Creen\\.nuget\\packages\\",
-        "outputPath": "C:\\Aplikacije\\Sapphire\\API\\obj\\",
+        "outputPath": "C:\\Aplikacije\\Sapphire\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Creen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -91,7 +91,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -113,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
