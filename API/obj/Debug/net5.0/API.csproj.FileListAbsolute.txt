@@ -79,3 +79,5 @@ C:\Aplikacije\Sapphire\api\obj\Debug\net5.0\API.pdb
 C:\Aplikacije\Sapphire\api\obj\Debug\net5.0\API.genruntimeconfig.cache
 C:\Aplikacije\Sapphire\api\obj\Debug\net5.0\ref\API.dll
 C:\Aplikacije\Sapphire\api\bin\Debug\net5.0\Data\UserSeedData.json
+C:\Aplikacije\Sapphire\api\bin\Debug\net5.0\AutoMapper.dll
+C:\Aplikacije\Sapphire\api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
