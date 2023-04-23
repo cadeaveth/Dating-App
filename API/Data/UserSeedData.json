@@ -1,7 +1,7 @@
 [
   {
     "UserName": "Bette",
-    "Gender": "femen",
+    "Gender": "female",
     "DateOfBirth": "1990-09-05",
     "KnownAs": "Bette",
     "Created": "2019-03-02",
@@ -20,7 +20,7 @@
   },
   {
     "UserName": "Sophie",
-    "Gender": "femen",
+    "Gender": "female",
     "DateOfBirth": "1989-11-18",
     "KnownAs": "Sophie",
     "Created": "2017-10-15",
@@ -39,7 +39,7 @@
   },
   {
     "UserName": "Simone",
-    "Gender": "femen",
+    "Gender": "female",
     "DateOfBirth": "1998-01-04",
     "KnownAs": "Simone",
     "Created": "2020-02-03",
@@ -58,7 +58,7 @@
   },
   {
     "UserName": "Allyson",
-    "Gender": "femen",
+    "Gender": "female",
     "DateOfBirth": "1985-12-28",
     "KnownAs": "Allyson",
     "Created": "2017-01-16",
@@ -77,7 +77,7 @@
   },
   {
     "UserName": "Lessie",
-    "Gender": "femen",
+    "Gender": "female",
     "DateOfBirth": "1987-07-24",
     "KnownAs": "Lessie",
     "Created": "2018-01-11",
