@@ -1,7 +1,7 @@
 [
   {
     "UserName": "Bette",
-    "Gender": "femen",
+    "Gender": "female",
     "DateOfBirth": "1990-09-05",
     "KnownAs": "Bette",
     "Created": "2019-03-02",
@@ -20,7 +20,7 @@
   },
   {
     "UserName": "Sophie",
-    "Gender": "femen",
+    "Gender": "female",
     "DateOfBirth": "1989-11-18",
     "KnownAs": "Sophie",
     "Created": "2017-10-15",
@@ -39,7 +39,7 @@
   },
   {
     "UserName": "Simone",
-    "Gender": "femen",
+    "Gender": "female",
     "DateOfBirth": "1998-01-04",
     "KnownAs": "Simone",
     "Created": "2020-02-03",
@@ -58,12 +58,12 @@
   },
   {
     "UserName": "Allyson",
-    "Gender": "femen",
+    "Gender": "female",
     "DateOfBirth": "1985-12-28",
     "KnownAs": "Allyson",
     "Created": "2017-01-16",
     "LastActive": "2021-07-26",
-    "Introduction": "Sunt dolor adipisicing nostrud sunt incididunt irure ipsum culpa eiusmod ipsum. Id consectetur cillum ad ea velit mollit cupidatat voluptate aute consectetur et amet. Cupidatat nostrud nisi quis dolore voluptate laborum excepteur voluptate. Adipisicing deserunt ad sit amet duis consequat est esse consequat esse eiusmod proident anim. Nostrud voluptate do reprehenderit pariatur voluptate in officia laboris do. Ad aliquip anim veniam duis. Anim ut ex nostrud culpa.\r\n",
+    "Introduction": "Sunt dolor adipisicing nostrud sunt incididunt irure ipsum cul eiusmod ipsum. Id consectetur cillum ad ea velit mollit cupidatat voluptate aute consectetur et amet. Cupidatat nostrud nisi quis dolore voluptate laborum excepteur voluptate. Adipisicing deserunt ad sit amet duis consequat est esse consequat esse eiusmod proident anim. Nostrud voluptate do reprehenderit pariatur voluptate in officia laboris do. Ad aliquip anim veniam duis. Anim ut ex nostrud culpa.\r\n",
     "LookingFor": "Eiusmod consectetur excepteur tempor est nisi nostrud qui. Veniam proident anim veniam proident pariatur ipsum non. Est Lorem eu ea Lorem esse aliqua sit sint do fugiat quis. Excepteur excepteur veniam aliqua enim enim ipsum est nostrud veniam veniam laboris sit occaecat. Et nisi elit cupidatat ea ex proident do enim adipisicing cillum irure ut. Occaecat nostrud irure aliqua laboris aute sint. Ipsum esse ad excepteur aliqua.\r\n",
     "Interests": "Id esse eiusmod non nulla et exercitation proident excepteur ut adipisicing nisi duis.",
     "City": "Irwin",
@@ -77,7 +77,7 @@
   },
   {
     "UserName": "Lessie",
-    "Gender": "femen",
+    "Gender": "female",
     "DateOfBirth": "1987-07-24",
     "KnownAs": "Lessie",
     "Created": "2018-01-11",
