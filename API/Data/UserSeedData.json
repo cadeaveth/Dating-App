@@ -96,7 +96,7 @@
   },
   {
     "UserName": "Duffy",
-    "Gender": "men",
+    "Gender": "male",
     "DateOfBirth": "1981-10-18",
     "KnownAs": "Duffy",
     "Created": "2019-01-23",
@@ -108,14 +108,14 @@
     "Country": "Zimbabwe",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/men/30.jpg",
+        "Url": "https://randomuser.me/api/portraits/male/30.jpg",
         "IsMain": true
       }
     ]
   },
   {
     "UserName": "Schultz",
-    "Gender": "men",
+    "Gender": "male",
     "DateOfBirth": "1991-02-22",
     "KnownAs": "Schultz",
     "Created": "2019-12-11",
@@ -127,14 +127,14 @@
     "Country": "Bosnia and Herzegovina",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/men/63.jpg",
+        "Url": "https://randomuser.me/api/portraits/male/63.jpg",
         "IsMain": true
       }
     ]
   },
   {
     "UserName": "Ratliff",
-    "Gender": "men",
+    "Gender": "male",
     "DateOfBirth": "1981-08-23",
     "KnownAs": "Ratliff",
     "Created": "2018-04-18",
@@ -146,14 +146,14 @@
     "Country": "Senegal",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/men/33.jpg",
+        "Url": "https://randomuser.me/api/portraits/male/33.jpg",
         "IsMain": true
       }
     ]
   },
   {
     "UserName": "Grimes",
-    "Gender": "men",
+    "Gender": "male",
     "DateOfBirth": "2000-11-23",
     "KnownAs": "Grimes",
     "Created": "2017-02-08",
@@ -165,14 +165,14 @@
     "Country": "Paraguay",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/men/57.jpg",
+        "Url": "https://randomuser.me/api/portraits/male/57.jpg",
         "IsMain": true
       }
     ]
   },
   {
     "UserName": "Carpenter",
-    "Gender": "men",
+    "Gender": "male",
     "DateOfBirth": "1984-11-21",
     "KnownAs": "Carpenter",
     "Created": "2017-06-02",
@@ -184,7 +184,7 @@
     "Country": "Dominica",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/men/92.jpg",
+        "Url": "https://randomuser.me/api/portraits/male/92.jpg",
         "IsMain": true
       }
     ]
