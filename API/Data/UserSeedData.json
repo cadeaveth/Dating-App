@@ -1,7 +1,7 @@
 [
   {
     "UserName": "Bette",
-    "Gender": "female",
+    "Gender": "femen",
     "DateOfBirth": "1990-09-05",
     "KnownAs": "Bette",
     "Created": "2019-03-02",
@@ -20,7 +20,7 @@
   },
   {
     "UserName": "Sophie",
-    "Gender": "female",
+    "Gender": "femen",
     "DateOfBirth": "1989-11-18",
     "KnownAs": "Sophie",
     "Created": "2017-10-15",
@@ -39,7 +39,7 @@
   },
   {
     "UserName": "Simone",
-    "Gender": "female",
+    "Gender": "femen",
     "DateOfBirth": "1998-01-04",
     "KnownAs": "Simone",
     "Created": "2020-02-03",
@@ -58,7 +58,7 @@
   },
   {
     "UserName": "Allyson",
-    "Gender": "female",
+    "Gender": "femen",
     "DateOfBirth": "1985-12-28",
     "KnownAs": "Allyson",
     "Created": "2017-01-16",
@@ -77,7 +77,7 @@
   },
   {
     "UserName": "Lessie",
-    "Gender": "female",
+    "Gender": "femen",
     "DateOfBirth": "1987-07-24",
     "KnownAs": "Lessie",
     "Created": "2018-01-11",
@@ -96,7 +96,7 @@
   },
   {
     "UserName": "Duffy",
-    "Gender": "male",
+    "Gender": "men",
     "DateOfBirth": "1981-10-18",
     "KnownAs": "Duffy",
     "Created": "2019-01-23",
@@ -108,14 +108,14 @@
     "Country": "Zimbabwe",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/male/30.jpg",
+        "Url": "https://randomuser.me/api/portraits/men/30.jpg",
         "IsMain": true
       }
     ]
   },
   {
     "UserName": "Schultz",
-    "Gender": "male",
+    "Gender": "men",
     "DateOfBirth": "1991-02-22",
     "KnownAs": "Schultz",
     "Created": "2019-12-11",
@@ -127,14 +127,14 @@
     "Country": "Bosnia and Herzegovina",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/male/63.jpg",
+        "Url": "https://randomuser.me/api/portraits/men/63.jpg",
         "IsMain": true
       }
     ]
   },
   {
     "UserName": "Ratliff",
-    "Gender": "male",
+    "Gender": "men",
     "DateOfBirth": "1981-08-23",
     "KnownAs": "Ratliff",
     "Created": "2018-04-18",
@@ -146,14 +146,14 @@
     "Country": "Senegal",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/male/33.jpg",
+        "Url": "https://randomuser.me/api/portraits/men/33.jpg",
         "IsMain": true
       }
     ]
   },
   {
     "UserName": "Grimes",
-    "Gender": "male",
+    "Gender": "men",
     "DateOfBirth": "2000-11-23",
     "KnownAs": "Grimes",
     "Created": "2017-02-08",
@@ -165,14 +165,14 @@
     "Country": "Paraguay",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/male/57.jpg",
+        "Url": "https://randomuser.me/api/portraits/men/57.jpg",
         "IsMain": true
       }
     ]
   },
   {
     "UserName": "Carpenter",
-    "Gender": "male",
+    "Gender": "men",
     "DateOfBirth": "1984-11-21",
     "KnownAs": "Carpenter",
     "Created": "2017-06-02",
@@ -184,7 +184,7 @@
     "Country": "Dominica",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/male/92.jpg",
+        "Url": "https://randomuser.me/api/portraits/men/92.jpg",
         "IsMain": true
       }
     ]
