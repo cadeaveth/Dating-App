@@ -3,14 +3,8 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject, map } from 'rxjs';
 import { User } from '../_models/user';
 import { environment } from 'src/environments/environment';
-/* 
- const httpOptions = {
-   headers: new HttpHeaders({
-     authorization: 'bearer ' + JSON.parse(localStorage.getItem('user')).token
-   })
- }
- */
-//potencijalni fix:     Authorization: 'Bearer ' + JSON.parse(JSON.stringify(localStorage.getItem('user'))).token
+
+
 @Injectable({
   providedIn: 'root'
 })
