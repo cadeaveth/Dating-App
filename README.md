@@ -1,3 +1,5 @@
 # Sapphire
 
-Notes to myself
+Notes to myself:
+
+AccountService.ts - authorization problem
