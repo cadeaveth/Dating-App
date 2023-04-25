@@ -116,7 +116,7 @@
     "ora" "5.4.1"
     "rxjs" "6.6.7"
 
-"@angular/animations@^15.0.0", "@angular/animations@^15.2.0", "@angular/animations@15.2.1":
+"@angular/animations@^15.0.0", "@angular/animations@^15.2.0", "@angular/animations@>=13.0.0 <14", "@angular/animations@15.2.1":
   "integrity" "sha512-oQjTdXLVHzSnsHHPF3CM4bnT4uVQQW1vP4weFTXWhvybQ6vICcq57N9Ri8ZsvB0Sisqug6CPwZoUATCb5a2HXw=="
   "resolved" "https://registry.npmjs.org/@angular/animations/-/animations-15.2.1.tgz"
   "version" "15.2.1"
@@ -147,7 +147,7 @@
     "symbol-observable" "4.0.0"
     "yargs" "17.6.2"
 
-"@angular/common@^15.0.0", "@angular/common@^15.2.0", "@angular/common@>=14.0.0-0", "@angular/common@15.2.1":
+"@angular/common@^15.0.0", "@angular/common@^15.2.0", "@angular/common@>=13.0.0 <14", "@angular/common@>=14.0.0-0", "@angular/common@15.2.1":
   "integrity" "sha512-nGFrZXrxLMkFyK4VYHHH6+/Hq92BjVls6UWuG1UblkYzGqPpr7dRQZGOXzJc48sEG2WOeVhlhyK+0tHFFaG08g=="
   "resolved" "https://registry.npmjs.org/@angular/common/-/common-15.2.1.tgz"
   "version" "15.2.1"
@@ -177,7 +177,7 @@
   dependencies:
     "tslib" "^2.3.0"
 
-"@angular/core@^15.0.0", "@angular/core@^15.2.0", "@angular/core@>=14.0.0-0", "@angular/core@15.2.1":
+"@angular/core@^15.0.0", "@angular/core@^15.2.0", "@angular/core@>=13.0.0 <14", "@angular/core@>=14.0.0-0", "@angular/core@15.2.1":
   "integrity" "sha512-CtN/cYDTGlELRcKBHxqnxmUhI9Euz2R+25dvjNtxB2tLzCehI6Fbmsb3NsC++jcAjL3QAmodpzzgULPtNJqs6A=="
   "resolved" "https://registry.npmjs.org/@angular/core/-/core-15.2.1.tgz"
   "version" "15.2.1"
@@ -1256,6 +1256,13 @@
   dependencies:
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
+
+"@kolkov/ngx-gallery@^2.0.1":
+  "integrity" "sha512-mTigRy9Ha7bqCF/+GNKeW2Oe8ZILuM5GGMw+ZbvTQWq3X5hngeFFgv8GFG49Py3biX67kb0NhqCP+msLe4wbXQ=="
+  "resolved" "https://registry.npmjs.org/@kolkov/ngx-gallery/-/ngx-gallery-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "tslib" "^2.3.0"
 
 "@leichtgewicht/ip-codec@^2.0.1":
   "integrity" "sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A=="
