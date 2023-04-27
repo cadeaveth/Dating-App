@@ -123,6 +123,15 @@
   dependencies:
     "tslib" "^2.3.0"
 
+"@angular/cdk@^15.2.8":
+  "integrity" "sha512-jiCoxfBFMH29IZIiPmVUzIWetfUNpMIvC20xYVF8RMM819vPogoObzwK4DN/sXcp/6oVbBzZFaYdijhhIt9soQ=="
+  "resolved" "https://registry.npmjs.org/@angular/cdk/-/cdk-15.2.8.tgz"
+  "version" "15.2.8"
+  dependencies:
+    "tslib" "^2.3.0"
+  optionalDependencies:
+    "parse5" "^7.1.2"
+
 "@angular/cli@~15.2.1":
   "integrity" "sha512-mLMn+65oojWvu7Ew4na8QgCQb382kZ55xCGjyUDeNNdH/WbqeYC783Vcs7JpMMP1JnndIaeIzvpfjLja1/2UCw=="
   "resolved" "https://registry.npmjs.org/@angular/cli/-/cli-15.2.1.tgz"
@@ -147,7 +156,7 @@
     "symbol-observable" "4.0.0"
     "yargs" "17.6.2"
 
-"@angular/common@^15.0.0", "@angular/common@^15.2.0", "@angular/common@>=13.0.0 <14", "@angular/common@>=14.0.0-0", "@angular/common@15.2.1":
+"@angular/common@^15.0.0", "@angular/common@^15.0.0 || ^16.0.0", "@angular/common@^15.2.0", "@angular/common@>=13.0.0 <14", "@angular/common@>=14.0.0-0", "@angular/common@15.2.1":
   "integrity" "sha512-nGFrZXrxLMkFyK4VYHHH6+/Hq92BjVls6UWuG1UblkYzGqPpr7dRQZGOXzJc48sEG2WOeVhlhyK+0tHFFaG08g=="
   "resolved" "https://registry.npmjs.org/@angular/common/-/common-15.2.1.tgz"
   "version" "15.2.1"
@@ -177,7 +186,7 @@
   dependencies:
     "tslib" "^2.3.0"
 
-"@angular/core@^15.0.0", "@angular/core@^15.2.0", "@angular/core@>=13.0.0 <14", "@angular/core@>=14.0.0-0", "@angular/core@15.2.1":
+"@angular/core@^15.0.0", "@angular/core@^15.0.0 || ^16.0.0", "@angular/core@^15.2.0", "@angular/core@>=13.0.0 <14", "@angular/core@>=14.0.0-0", "@angular/core@15.2.1":
   "integrity" "sha512-CtN/cYDTGlELRcKBHxqnxmUhI9Euz2R+25dvjNtxB2tLzCehI6Fbmsb3NsC++jcAjL3QAmodpzzgULPtNJqs6A=="
   "resolved" "https://registry.npmjs.org/@angular/core/-/core-15.2.1.tgz"
   "version" "15.2.1"
@@ -2453,7 +2462,7 @@
     "shebang-command" "^2.0.0"
     "which" "^2.0.1"
 
-"css-loader@6.7.3":
+"css-loader@^6.7.3", "css-loader@6.7.3":
   "integrity" "sha512-qhOH1KlBMnZP8FzRO6YCH9UHXQhVMcEGLyNdb7Hv2cpcmJbW0YrddO+tG1ab5nT41KpHIYGsbeHqxB9xPu1pKQ=="
   "resolved" "https://registry.npmjs.org/css-loader/-/css-loader-6.7.3.tgz"
   "version" "6.7.3"
@@ -2703,10 +2712,15 @@
   "resolved" "https://registry.npmjs.org/entities/-/entities-2.2.0.tgz"
   "version" "2.2.0"
 
-"entities@^4.3.0", "entities@^4.4.0":
+"entities@^4.3.0":
   "integrity" "sha512-oYp7156SP8LkeGD0GF85ad1X9Ai79WtRsZ2gxJqtBuzH+98YUV6jkHEKlZkMbcrjJjIVJNIDP/3WL9wQkoPbWA=="
   "resolved" "https://registry.npmjs.org/entities/-/entities-4.4.0.tgz"
   "version" "4.4.0"
+
+"entities@^4.4.0":
+  "integrity" "sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw=="
+  "resolved" "https://registry.npmjs.org/entities/-/entities-4.5.0.tgz"
+  "version" "4.5.0"
 
 "env-paths@^2.2.0":
   "integrity" "sha512-+h1lkLKhZMTYjog1VEpJNG7NZJWcuc2DDk/qsqSTRRCOXiLjeQ1d1/udrUGhqMxUgAlwKNZ0cf2uqan5GLuS2A=="
@@ -4289,6 +4303,13 @@
   dependencies:
     "tslib" "^2.3.0"
 
+"ngx-spinner@^15.0.1":
+  "integrity" "sha512-7DjETmBpuXTwI68ad1xMKpwt4Cyz1eyu8E7AJcFiKa+8JAnbo0k1qfvWur0aemncRNxDxHoyl6jw42MsnE/B+g=="
+  "resolved" "https://registry.npmjs.org/ngx-spinner/-/ngx-spinner-15.0.1.tgz"
+  "version" "15.0.1"
+  dependencies:
+    "tslib" "^2.3.0"
+
 "ngx-toastr@^16.1.0":
   "integrity" "sha512-jMnkauggRE8264vR4NtOgK3QI7zmufO3Z7wrkg3j7A7ZVpkCKDXgklsAZM9aiHxDyttM2K+Na6a6L004uPeRKA=="
   "resolved" "https://registry.npmjs.org/ngx-toastr/-/ngx-toastr-16.1.0.tgz"
@@ -4623,6 +4644,13 @@
   "version" "6.0.1"
 
 "parse5@^7.0.0":
+  "integrity" "sha512-Czj1WaSVpaoj0wbhMzLmWD69anp2WH7FXMB9n1Sy8/ZFF9jolSQVMu1Ij5WIyGmcBmhk7EOndpO4mIpihVqAXw=="
+  "resolved" "https://registry.npmjs.org/parse5/-/parse5-7.1.2.tgz"
+  "version" "7.1.2"
+  dependencies:
+    "entities" "^4.4.0"
+
+"parse5@^7.1.2":
   "integrity" "sha512-Czj1WaSVpaoj0wbhMzLmWD69anp2WH7FXMB9n1Sy8/ZFF9jolSQVMu1Ij5WIyGmcBmhk7EOndpO4mIpihVqAXw=="
   "resolved" "https://registry.npmjs.org/parse5/-/parse5-7.1.2.tgz"
   "version" "7.1.2"
@@ -5507,6 +5535,11 @@
   "integrity" "sha512-BrpvfNAE3dcvq7ll3xVumzjKjZQ5tI1sEUIKr3Uoks0XUl45St3FlatVqef9prk4jRDzhW6WZg+3bk93y6pLjA=="
   "resolved" "https://registry.npmjs.org/strip-final-newline/-/strip-final-newline-2.0.0.tgz"
   "version" "2.0.0"
+
+"style-loader@^3.3.2":
+  "integrity" "sha512-RHs/vcrKdQK8wZliteNK4NKzxvLBzpuHMqYmUVWeKa6MkaIQ97ZTOS0b+zapZhy6GcrgWnvWYCMHRirC3FsUmw=="
+  "resolved" "https://registry.npmjs.org/style-loader/-/style-loader-3.3.2.tgz"
+  "version" "3.3.2"
 
 "supports-color@^5.3.0":
   "integrity" "sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow=="
