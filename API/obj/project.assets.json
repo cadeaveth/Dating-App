@@ -2818,11 +2818,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Aplikacije\\Sapphire\\API\\API.csproj",
+      "projectUniqueName": "C:\\Aplikacije\\Sapphire\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "c:\\Aplikacije\\Sapphire\\API\\API.csproj",
+      "projectPath": "C:\\Aplikacije\\Sapphire\\api\\API.csproj",
       "packagesPath": "C:\\Users\\Creen\\.nuget\\packages\\",
-      "outputPath": "c:\\Aplikacije\\Sapphire\\API\\obj\\",
+      "outputPath": "C:\\Aplikacije\\Sapphire\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Creen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2832,6 +2832,7 @@
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
