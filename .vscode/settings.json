@@ -4,6 +4,7 @@
         "hmac",
         "HMACSHA512",
         "tabset",
+        "titlecase",
         "toastr"
     ]
 }
