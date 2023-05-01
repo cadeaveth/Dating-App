@@ -186,7 +186,7 @@
   dependencies:
     "tslib" "^2.3.0"
 
-"@angular/core@^14.0.0", "@angular/core@^15.0.0", "@angular/core@^15.0.0 || ^16.0.0", "@angular/core@^15.2.0", "@angular/core@>=13.0.0 <14", "@angular/core@>=14.0.0-0", "@angular/core@15.2.1":
+"@angular/core@^14.0.0", "@angular/core@^15.0.0", "@angular/core@^15.0.0 || ^16.0.0", "@angular/core@^15.2.0", "@angular/core@>=10.0.0", "@angular/core@>=13.0.0 <14", "@angular/core@>=14.0.0-0", "@angular/core@15.2.1":
   "integrity" "sha512-CtN/cYDTGlELRcKBHxqnxmUhI9Euz2R+25dvjNtxB2tLzCehI6Fbmsb3NsC++jcAjL3QAmodpzzgULPtNJqs6A=="
   "resolved" "https://registry.npmjs.org/@angular/core/-/core-15.2.1.tgz"
   "version" "15.2.1"
@@ -4317,6 +4317,13 @@
   dependencies:
     "tslib" "^2.3.0"
 
+"ngx-timeago@^2.0.0":
+  "integrity" "sha512-5kQZeTPCkegEcSooUu3W0BSOwvxEt1q6zjodwEOYoW/FxETC8Bk1zQF1QOPZLS+Nu3GLA+g1oPXMVBonM+CYQQ=="
+  "resolved" "https://registry.npmjs.org/ngx-timeago/-/ngx-timeago-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "tslib" "^2.0.0"
+
 "ngx-toastr@^16.1.0":
   "integrity" "sha512-jMnkauggRE8264vR4NtOgK3QI7zmufO3Z7wrkg3j7A7ZVpkCKDXgklsAZM9aiHxDyttM2K+Na6a6L004uPeRKA=="
   "resolved" "https://registry.npmjs.org/ngx-toastr/-/ngx-toastr-16.1.0.tgz"
@@ -5078,7 +5085,7 @@
   dependencies:
     "queue-microtask" "^1.2.2"
 
-"rxjs@^6.5.3 || ^7.4.0", "rxjs@^6.5.3 || ^7.6.0", "rxjs@^7.5.5", "rxjs@~7.8.0":
+"rxjs@^6.5.3 || ^7.4.0", "rxjs@^6.5.3 || ^7.6.0", "rxjs@^7.5.5", "rxjs@>=6.6.0", "rxjs@~7.8.0":
   "integrity" "sha512-F2+gxDshqmIub1KdvZkaEfGDwLNpPvk9Fs6LD/MyQxNgMds/WH9OdDDXOmxUZpME+iSK3rQCctkL0DYyytUqMg=="
   "resolved" "https://registry.npmjs.org/rxjs/-/rxjs-7.8.0.tgz"
   "version" "7.8.0"
@@ -5682,7 +5689,7 @@
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
   "version" "1.14.1"
 
-"tslib@^2.1.0", "tslib@^2.3.0", "tslib@2.5.0":
+"tslib@^2.0.0", "tslib@^2.1.0", "tslib@^2.3.0", "tslib@2.5.0":
   "integrity" "sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg=="
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.5.0.tgz"
   "version" "2.5.0"
