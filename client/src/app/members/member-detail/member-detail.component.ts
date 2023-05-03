@@ -13,24 +13,27 @@ import { MessageService } from 'src/app/_services/message.service';
   styleUrls: ['./member-detail.component.css']
 })
 export class MemberDetailComponent implements OnInit {
-  @ViewChild('memberTabs') memberTabs: TabsetComponent;
+  @ViewChild('memberTabs', {static: true}) memberTabs?: TabsetComponent;
   member: Member = {} as Member;
-  galleryOptions: NgxGalleryOptions[];
-  galleryImages: NgxGalleryImage[];
-  activeTab: TabDirective;
+  galleryOptions: NgxGalleryOptions[] = [];
+  galleryImages: NgxGalleryImage[] = [];
+  activeTab?: TabDirective;
   messages: Message[] = [];
 
-  constructor(private memberService: MembersService, private route: ActivatedRoute, private messageService: MessageService){}
+  constructor(private memberService: MembersService, private route: ActivatedRoute, 
+      private messageService: MessageService) { }
 
   ngOnInit(): void {
-    this.loadMember();
+    this.route.data.subscribe({
+      next: data => this.member = data['member']
+    })
 
     this.route.queryParams.subscribe({
       next: params => {
         params['tab'] && this.selectTab(params['tab'])
       }
     })
-    
+
     this.galleryOptions = [
       {
         width: '500px',
@@ -41,44 +44,40 @@ export class MemberDetailComponent implements OnInit {
         preview: false
       }
     ]
+
+    this.galleryImages = this.getImages();
   }
 
-  getImages(): NgxGalleryImage[] {
+  getImages() {
+    if (!this.member) return [];
     const imageUrls = [];
-    for(const photo of this.member.photos) {
+    for (const photo of this.member.photos) {
       imageUrls.push({
-        small: photo?.url,
-        medium: photo?.url,
-        big: photo?.url
+        small: photo.url,
+        medium: photo.url,
+        big: photo.url
       })
     }
-    return imageUrls
+    return imageUrls;
   }
 
-  loadMember() {
-    var username = this.route.snapshot.paramMap.get('username');
-    if (!username) return;
-    this.memberService.getMember(username).subscribe({
-      next: member => {
-        this.member = member;
-        this.galleryImages = this.getImages();
-      }
-    })
+  selectTab(heading: string) {
+    if (this.memberTabs) {
+      this.memberTabs.tabs.find(x => x.heading === heading)!.active = true
+    }
   }
 
-  loadMessages(){
-    this.messageService.getMessageThread(this.member.username).subscribe(messages =>{
-      this.messages = messages;
-    })
+  loadMessages() {
+    if (this.member) {
+      this.messageService.getMessageThread(this.member.username).subscribe({
+        next: messages => this.messages = messages
+      })
+    }
   }
 
-  selectTab(tabId: number){
-    this.memberTabs.tabs[tabId].active = true;
-  }
-  
-  onTabActivated(data: TabDirective){
+  onTabActivated(data: TabDirective) {
     this.activeTab = data;
-    if (this.activeTab.heading === 'Messages' && this.messages.length === 0){
+    if (this.activeTab.heading === 'Messages') {
       this.loadMessages();
     }
   }
