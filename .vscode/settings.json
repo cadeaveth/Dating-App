@@ -3,6 +3,7 @@
         "Cloudinary",
         "hmac",
         "HMACSHA512",
+        "signalr",
         "tabset",
         "titlecase",
         "toastr"
