@@ -7,9 +7,9 @@ import { Member } from 'src/app/_models/member';
 import { Message } from 'src/app/_models/message';
 import { User } from 'src/app/_models/user';
 import { AccountService } from 'src/app/_services/account.service';
+import { MembersService } from 'src/app/_services/members.service';
 import { MessageService } from 'src/app/_services/message.service';
 import { PresenceService } from 'src/app/_services/presence.service';
-
 
 @Component({
   selector: 'app-member-detail',
@@ -26,14 +26,15 @@ export class MemberDetailComponent implements OnInit, OnDestroy {
   user?: User;
 
   constructor(private accountService: AccountService, private route: ActivatedRoute, 
-    private messageService: MessageService, public presenceService: PresenceService) {
-        this.accountService.currentUser$.pipe(take(1)).subscribe({
-          next: user => {
-            if (user) this.user = user;
-          }
-        });
-     }
-    
+      private messageService: MessageService, public presenceService: PresenceService, 
+      private router: Router) {
+          this.accountService.currentUser$.pipe(take(1)).subscribe({
+            next: user => {
+              if (user) this.user = user;
+            }
+          });
+          this.router.routeReuseStrategy.shouldReuseRoute = () => false;
+       }
 
   ngOnInit(): void {
     this.route.data.subscribe({
@@ -58,6 +59,10 @@ export class MemberDetailComponent implements OnInit, OnDestroy {
     ]
 
     this.galleryImages = this.getImages();
+  }
+
+  ngOnDestroy(): void {
+    this.messageService.stopHubConnection();
   }
 
   getImages() {
@@ -94,10 +99,6 @@ export class MemberDetailComponent implements OnInit, OnDestroy {
     } else {
       this.messageService.stopHubConnection();
     }
-  }
-
-  ngOnDestroy(): void {
-    this.messageService.stopHubConnection();
   }
 
 }
