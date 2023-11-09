@@ -1,3 +1,1 @@
 # Sapphire
-
-Notes to myself:
